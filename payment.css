@@ -1,0 +1,162 @@
+.main-container {
+    background: url(Images/pexels-josh-sorenson-1716825.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 101%;
+    height: 100vh;
+}
+
+.header {
+    background: transparent;
+    background: rgba(29, 26, 22, 0.778);
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    
+}
+
+.header h1 {
+    color: #f8f8f8;
+    padding-left: 25px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.navbar a:hover {
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+/*transparent part*/
+.leftSide   {
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    top: 0;
+    left: 26%;
+    width: 36%;   
+    height: 71%;
+    background: rgba(10, 10, 10, 0.778);
+    padding: 15px;
+    border-radius: 15px;
+    transform: translate(-50%, 25%);
+}
+
+.Cash-deposit {
+    font-size: 20px;
+    width: 500px;
+    height: 450px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    color: #fff;
+  }
+
+  .Cash-deposit label, input {
+    margin-left: 78px;
+  }
+  
+  .Cash-deposit h2 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .Cash-deposit label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .Cash-deposit input[type="date"],
+  .Cash-deposit input[type="email"],
+  .Cash-deposit input[type="file"],
+  .Cash-deposit input[type="submit"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .Cash-deposit input[type="text"]  {
+    width: 52%;
+    height: 18%;
+    border-radius: 10px;
+  }
+
+  
+  .Cash-deposit input[type="submit"] {
+    background-color: #25a2eb;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .Cash-deposit input[type="submit"]:hover {
+    background-color: #744530;
+    color: black;
+    padding: 5px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border: 2px black;
+  }
+  
+
+  /*transparent paert*/
+
+.RightSide  {
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    top: 0;
+    left: 26%;
+    width: 36%;   
+    height: 71%;
+    background: rgba(10, 10, 10, 0.778);
+    padding: 15px;
+    border-radius: 15px;
+    transform: translate(75%, 25%);
+}  
+
+.WINGS {
+    font-size: 20px;
+    width: 500px;
+    height: 450px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    color: #fff;
+  }
+
+  .WINGS h2, h3{
+    text-align: center;
+  } 
+
+  .WINGS span{
+    color: rgb(21, 35, 240);
+  }
+
+  .WINGS p{
+    text-align: justify;
+  }
+
+

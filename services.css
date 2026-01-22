@@ -1,0 +1,87 @@
+.main-container {
+    background: url(Images/pexels-josh-sorenson-1716825.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 101%;
+    height: 100vh;
+}
+
+.header {
+    background: transparent;
+    background: rgba(29, 26, 22, 0.778);
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    
+}
+
+.header h1 {
+    color: #f8f8f8;
+    padding-left: 25px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.navbar a:hover {
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.Our-Services h2    {
+    color: white;
+    font-size: 38px;
+    transform: translate(200px, 105px);     
+}
+
+.Services {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(27, 27, 27, 0.778);
+    height: 55%;
+    width: 85%;
+    border-radius: 15px;
+    margin-left: 7.5%;
+    border: 2px solid white;
+    
+  }
+  
+  .Services p {
+    font-size: 25px;
+    border: 2px solid white;
+    color: rgb(231, 141, 68);
+    width: 16rem;
+    height: 85px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    transform: translate(2rem, 8rem);
+
+  }
+  
+  .Services p:hover {
+    background-color: rgba(202, 133, 68, 0.4);
+    color: #ffffff;
+    padding: 15px ;
+    
+    font-size: 29px;
+    border-radius: 10px;
+    align-items: center;
+  }
